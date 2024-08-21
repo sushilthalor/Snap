@@ -1,0 +1,35 @@
+.list{
+    list-style: none;
+}
+.fsize{
+    font-size: 70px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.image_full{
+    display:block;
+    width: 90%;
+    height: 90%;
+   }
+ 
+  .image_mobile{
+    display:none;
+  }
+
+@media only screen and (max-width: 786px) {
+    .img{
+        width: 100%;
+        height: 100%;
+    }
+    .image_full{
+        display:none;
+    }
+     
+    .image_mobile{
+        display:block;
+        width: 100%;
+        height: 100%;
+    }
+}
